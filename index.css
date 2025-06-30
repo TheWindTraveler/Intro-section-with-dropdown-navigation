@@ -18,7 +18,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
     display: block;
 }
 
@@ -65,8 +65,6 @@ img {
 
 .dropdown-menu {
     position: absolute;
-    /* top: 100%; */
-    /* left: 0; */
     background: white;
     list-style: none;
     padding: 2rem;
@@ -97,4 +95,51 @@ img {
 .nav-auth a {
     text-decoration: none;
     color: var(--Almost-Black);
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 100px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.hero-text h1 {
+  font-size: 70px;
+  font-weight: 800;
+  max-width: 800px;
+  width: 95%;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  color: var(--Medium-Gray);
+  font-size: 20px;
+  margin-bottom: 3rem;
+  width: 80%;
+}
+
+.btn-dark {
+  border: 2px solid var(--Almost-Black);
+  color: var(--Almost-Black);
+  padding: 0.6rem 1.8rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.client-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }

@@ -75,9 +75,26 @@ img {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     min-width: 170px;
     z-index: 1000;
-    /* display: none; */
+    display: none;
 }
 
 .dropdown-menu li {
     margin-bottom: 0.8rem;
+}
+
+.nav-auth {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-auth .btn {
+    border: 2px solid var(--Almost-Black);
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+}
+
+.nav-auth a {
+    text-decoration: none;
+    color: var(--Almost-Black);
 }

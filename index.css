@@ -1,15 +1,18 @@
+/* Predefined variables */
 :root {
     --Almost-White: hsl(0, 0%, 98%);
     --Medium-Gray: hsl(0, 0%, 41%);
     --Almost-Black: hsl(0, 0%, 8%);
 }
 
+/* Global styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body styles */
 body {
     background: var(--Almost-White);
     color: var(--Almost-Black);
@@ -17,6 +20,7 @@ body {
     line-height: 1.6;
 }
 
+/* Images */
 img {
     max-width: 80%;
     display: block;

@@ -26,17 +26,20 @@ img {
     display: block;
 }
 
+/* Container */
 .container{
     width: 90%;
     max-width: 1200px;
     margin: auto;
 }
 
+/* Header */
 .header {
     background: var(--Almost-White);
     padding: 2rem 0;
 }
 
+/* Navigation bar */
 .navbar {
     display: flex;
     align-items: center;
@@ -63,6 +66,7 @@ img {
     color: var(--Almost-Black);
 }
 
+/* Dropwdown menu */
 .dropdown {
     position: relative;
 }
@@ -84,6 +88,7 @@ img {
     margin-bottom: 0.8rem;
 }
 
+/* Navigation authentication */
 .nav-auth {
     display: flex;
     align-items: center;
@@ -101,6 +106,7 @@ img {
     color: var(--Almost-Black);
 }
 
+/* Hero section */
 .hero-container {
   display: flex;
   justify-content: space-between;
@@ -130,6 +136,7 @@ img {
   width: 80%;
 }
 
+/* Buttons */
 .btn-dark {
   border: 2px solid var(--Almost-Black);
   color: var(--Almost-Black);
@@ -141,6 +148,7 @@ img {
   margin-bottom: 3rem;
 }
 
+/* Logos */
 .client-logos {
   display: flex;
   justify-content: space-between;

@@ -4,6 +4,7 @@ dropDownElement.forEach(dropdown => {
   const trigger = dropdown.querySelector('a');
   const menu = dropdown.querySelector('.dropdown-menu');
 
+  // Event listener
   trigger.addEventListener('click', (e) => {
     e.preventDefault();
     // Close other dropdowns
